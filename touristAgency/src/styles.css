@@ -1,1 +1,111 @@
-/* You can add global styles to this file, and also import other style files */
+.jumbotron {
+
+ background: url("https://cdn-cms.f-static.com/uploads/1930125/800_5c6e9ed01b9b0.jpg")  
+ 	no-repeat center center;
+    color: white;
+    background-size: cover;
+    height: 75vh;
+    text-align: center;
+
+}
+
+.bg{
+	
+    color: white;
+    background-size: cover;
+    height: 75vh;
+    text-align: center;
+  
+ 	background: 
+    /* top, transparent blue */ 
+    linear-gradient(
+      rgba(6, 60, 92, 0.75), 
+      rgba(6, 60, 92, 0.75)
+    ),
+    /* bottom, image */
+    url(http://redone.org/_dev/ski/img/backgrounds/background_skier.jpg);
+}
+
+.bg1{
+	
+    color: #214659;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    
+    background: 
+    /* top, transparent white */ 
+    linear-gradient(
+      rgba(255, 255, 255, 0.75), 
+      rgba(255, 255, 255, 0.75)
+    ),
+    /* bottom, image */
+    url(http://assets.worldwildlife.org/photos/2325/images/story_full_width/mountains-hero.jpg?1345838509);
+   
+}
+#ski{
+	border: solid 1px white;
+	width: 5%;
+
+}
+
+.image_mid{
+	border: solid 1px white;
+	width: 15%;
+	
+}
+
+.hr1{
+	height: 0.5%;
+	background-color: #6F556A;
+	width: 2%;	
+}
+
+.p-2{
+	height: 100%;
+	width: 25%;
+}
+
+.hr2{
+	height: 0.5%;
+	background-color: #214659;
+	width: 2%;	
+}
+
+#box1{
+	background: url(https://www.skiworld.co.uk/images/uploads/photos/small/exterior_at_night_at_aigle_ski_lodge,_tignes_12451.jpg);
+}
+
+
+#box2{
+	background: url(https://www.skiworld.co.uk/images/uploads/photos/small/exterior_at_night_at_aigle_ski_lodge,_tignes_12451.jpg);
+
+}
+
+#box3{
+	background: url(https://www.skiworld.co.uk/images/uploads/photos/small/exterior_at_night_at_aigle_ski_lodge,_tignes_12451.jpg);
+
+}
+
+#box4{
+	background: url(https://www.skiworld.co.uk/images/uploads/photos/small/exterior_at_night_at_aigle_ski_lodge,_tignes_12451.jpg);
+
+}
+
+#box1, #box2, #box3, #box4{
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 10em;
+	color: white;
+	margin: 2em;
+	padding: 0;
+
+
+}
+.price{
+	background-color: red;
+	position:absolute;
+	top: 8px;
+  	left: 16px;
+}
+
